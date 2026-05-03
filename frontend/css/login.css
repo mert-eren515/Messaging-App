@@ -4,4 +4,12 @@ form{
     align-items: center;
     justify-content: center;
     height: 100vh;
+    background-color: aqua;
+}
+
+.username-row, .password-row{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 15px;
+    gap: 5px;
 }
